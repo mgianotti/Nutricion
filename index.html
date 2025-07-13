@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Interactiva - Nutrición</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Malla Interactiva - Licenciatura en Nutrición</h1>
+  <p>Haz clic para marcar materias como aprobadas.</p>
+
+  <div class="malla">
+
+    <!-- Primer Año -->
+    <section class="bloque">
+      <h2>1° Año - 1° Cuatrimestre</h2>
+      <div class="cuatri">
+        <div class="materia" data-id="biologia" data-correlativas="">Biología General</div>
+        <div class="materia" data-id="anatomia" data-correlativas="">Anatomía e Histología</div>
+        <div class="materia" data-id="bioquimica1" data-correlativas="">Bioquímica de la Nutrición I</div>
+        <div class="materia" data-id="cultura" data-correlativas="">Cultura de la Alimentación</div>
+        <div class="materia" data-id="salud" data-correlativas="">Salud Pública</div>
+      </div>
+    </section>
+
+    <section class="bloque">
+      <h2>1° Año - 2° Cuatrimestre</h2>
+      <div class="cuatri">
+        <div class="materia" data-id="nutricion1" data-correlativas="">Nutrición I</div>
+        <div class="materia" data-id="psicoalimentacion" data-correlativas="">Psicología de la Alimentación</div>
+        <div class="materia" data-id="comunicacion" data-correlativas="">Comunicación de la Nutrición</div>
+        <div class="materia" data-id="economia" data-correlativas="">Economía y Producción Alimentaria</div>
+        <div class="materia" data-id="procesamiento" data-correlativas="">Procesamiento de Datos en Salud</div>
+      </div>
+    </section>
+
+    <!-- Repite lo mismo para los demás años/cuatrimestres (2°, 3°, 4°, 5° año) -->
+    <!-- ... -->
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
